@@ -1,0 +1,19 @@
+https://www.oabsp.org.br/noticias/2019/servicos/tabelas/tabela-de-honorarios/
+
+
+
+import locale
+locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
+locale.currency("100000", grouping=True, symbol=True)
+
+!pip install python-dotenv
+fom dotenv import load_dotenv
+load_dotenv()
+
+import os
+os.environ["user"]
+
+
+
+
+
